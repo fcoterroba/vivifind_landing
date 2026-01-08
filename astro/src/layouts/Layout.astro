@@ -12,16 +12,16 @@ const { title } = Astro.props;
 <html lang="en">
 	<head>
 		<meta charset="UTF-8" />
-		<meta name="description" content="Vivifind - The memory of an automated future for real estate." />
+		<meta name="description" content="Vivifind - Your new flat, without the search." />
 		<meta name="viewport" content="width=device-width" />
-		<link rel="icon" type="image/svg+xml" href="/favicon.svg" />
+		<link rel="icon" type="image/x-icon" href="https://vivifind.com/favicon.ico" />
 		<meta name="generator" content={Astro.generator} />
         <link rel="preconnect" href="https://fonts.googleapis.com">
         <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
-        <link href="https://fonts.googleapis.com/css2?family=Outfit:wght@300;400;600;700&display=swap" rel="stylesheet">
+        <link href="https://fonts.googleapis.com/css2?family=Inter:wght@300;400;600;700&display=swap" rel="stylesheet">
 		<title>{title}</title>
 	</head>
-	<body class="antialiased bg-slate-950 text-slate-50 overflow-x-hidden">
+	<body class="antialiased bg-surface text-surface-dark overflow-x-hidden selection:bg-primary selection:text-white">
 		<slot />
 	</body>
 </html>

@@ -4,22 +4,27 @@ export default {
 	theme: {
 		extend: {
 			fontFamily: {
-				sans: ['Outfit', 'Inter', 'sans-serif'],
+				sans: ['Inter', 'sans-serif'],
 			},
 			colors: {
 				primary: {
-					50: '#f0f9ff',
-					100: '#e0f2fe',
-					200: '#bae6fd',
-					300: '#7dd3fc',
-					400: '#38bdf8',
-					500: '#0ea5e9',
-					600: '#0284c7',
-					700: '#0369a1',
-					800: '#075985',
-					900: '#0c4a6e',
-					950: '#082f49',
+					DEFAULT: '#3A86FF',
+					50: '#f0f6ff',
+					100: '#e0edff',
+					200: '#bae0ff',
+					300: '#7cc7ff',
+					400: '#38b2ff',
+					500: '#3A86FF', 
+					600: '#2a6ee6',
+					700: '#2156cc',
+					800: '#1d48a6',
+					900: '#1e3e85',
+					950: '#142552',
 				},
+				surface: {
+					DEFAULT: '#F9FAFB',
+					dark: '#0F172A',
+				}
 			},
 			animation: {
 				'fade-in': 'fadeIn 0.5s ease-out',

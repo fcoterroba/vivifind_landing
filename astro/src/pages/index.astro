@@ -1,14 +1,10 @@
 ---
 import Layout from '../layouts/Layout.astro';
-import Hero from '../components/Hero.jsx';
-import About from '../components/About.jsx';
-import ForSale from '../components/ForSale.jsx';
+import LandingPage from '../components/LandingPage.jsx';
 ---
 
-<Layout title="Vivifind - Automated Real Estate Assistant">
+<Layout title="Vivifind - Your new flat, without the search.">
 	<main>
-		<Hero client:load />
-		<About client:visible />
-		<ForSale client:visible />
+		<LandingPage client:load />
 	</main>
 </Layout>
