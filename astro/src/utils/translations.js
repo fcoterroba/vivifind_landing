@@ -23,7 +23,8 @@ export const translations = {
     saleDesc: "Vivifind may be asleep, but its engine is wide awake. The complete codebase, including the sophisticated scraping algorithms, AI matching logic, and modern frontend, is available for acquisition.",
     contactInquiry: "Contact for Inquiry",
     techStack: ["Python Core", "TypeScript & Next.js", "AI/ML Integration", "Scalable Architecture"],
-    footer: "© Vivifind. All rights reserved in memory."
+    footer: "© Vivifind. All rights reserved in memory.",
+    attribution: "a fcoterroba project"
   },
   es: {
     heroTitle: "Tu nuevo piso, sin buscarlo.",
@@ -49,7 +50,8 @@ export const translations = {
     saleDesc: "Vivifind puede estar dormido, pero su motor está bien despierto. La base de código completa, incluyendo algoritmos de scraping, lógica de IA y frontend moderno, está disponible para adquisición.",
     contactInquiry: "Contacto para Información",
     techStack: ["Núcleo Python", "TypeScript & Next.js", "Integración IA/ML", "Arquitectura Escalable"],
-    footer: "© Vivifind. Todos los derechos reservados en memoria."
+    footer: "© Vivifind. Todos los derechos reservados en memoria.",
+    attribution: "un proyecto de fcoterroba"
   },
   zh: {
     heroTitle: "无需搜索，即可找到您的新住所",
@@ -75,6 +77,7 @@ export const translations = {
     saleDesc: "Vivifind 虽然已经休眠，但它的引擎依然保持清醒。完整的代码库，包括复杂的抓取算法、AI 匹配逻辑和现代前端，均可供收购。",
     contactInquiry: "联系咨询",
     techStack: ["Python 核心", "TypeScript & Next.js", "AI/ML 集成", "可扩展架构"],
-    footer: "© Vivifind。记忆中保留所有权利。"
+    footer: "© Vivifind。记忆中保留所有权利。",
+    attribution: "fcoterroba 项目"
   }
 };
