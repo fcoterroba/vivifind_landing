@@ -12,9 +12,9 @@ const Attribution = ({ lang }) => {
       href="https://fcoterroba.com"
       target="_blank"
       rel="noopener noreferrer"
-      initial={{ opacity: 0, x: -20 }}
-      animate={{ opacity: 1, x: 0 }}
-      className="fixed bottom-6 left-6 z-[100] flex items-center gap-3 px-4 py-2 bg-white/80 backdrop-blur-md border border-slate-200 rounded-full shadow-sm hover:shadow-md hover:border-[#2ECC71]/30 transition-all group pointer-events-auto"
+      initial={{ opacity: 0, y: 10 }}
+      animate={{ opacity: 1, y: 0 }}
+      className="fixed bottom-6 inset-x-0 mx-auto w-max md:inset-x-auto md:mx-0 md:left-6 z-[100] flex items-center gap-3 px-4 py-2 bg-white/80 backdrop-blur-md border border-slate-200 rounded-full shadow-sm hover:shadow-md hover:border-[#2ECC71]/30 transition-all group pointer-events-auto whitespace-nowrap"
     >
       <img src="/fcoterroba_icon.png" alt="fcoterroba" className="w-5 h-5 object-contain group-hover:scale-110 transition-transform" />
       <span className="text-xs font-bold text-slate-600">

@@ -10,7 +10,7 @@ export default function Hero({ lang, setLang }) {
       {/* Navigation / Language Switcher */}
       <nav className="absolute top-0 w-full p-6 flex justify-between items-center z-50 max-w-7xl mx-auto">
         <div className="flex items-center gap-2">
-            <img src="https://vivifind.com/favicon.ico" alt="Vivifind" className="w-8 h-8 rounded-lg" />
+            <img src="/favicon.ico" alt="Vivifind" className="w-8 h-8 rounded-lg" />
             <span className="font-bold text-xl text-primary tracking-tight">ViviFind</span>
         </div>
         <div className="flex gap-4">

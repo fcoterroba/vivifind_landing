@@ -7,22 +7,22 @@ export const translations = {
     description: "ViviFind is a platform that searches for apartments for you, using AI to find the best homes according to your preferences, without you having to spend hours looking at portals.",
     features: [
       {
-        title: "Automated Search",
+        title: "Automated search",
         desc: "An AI assistant that scoured major real estate portals while you slept."
       },
       {
-        title: "Instant Alerts",
+        title: "Instant alerts",
         desc: "Delivered strictly relevant listings, saving hours of daily manual scrolling."
       },
       {
-        title: "Smart Matching",
+        title: "Smart matching",
         desc: "Understood preferences beyond filters, finding the perfect home match."
       }
     ],
-    codeRemains: "The Code Remains.",
+    codeRemains: "The code remains.",
     saleDesc: "Vivifind may be asleep, but its engine is wide awake. The complete codebase, including the sophisticated scraping algorithms, AI matching logic, and modern frontend, is available for acquisition.",
     contactInquiry: "Contact for Inquiry",
-    techStack: ["Python Core", "TypeScript & Next.js", "AI/ML Integration", "Scalable Architecture"],
+    techStack: ["Python core", "TypeScript & Next.js", "AI/ML integration", "Scalable architecture"],
     footer: "© Vivifind. All rights reserved in memory.",
     attribution: "a fcoterroba project"
   },
@@ -34,22 +34,22 @@ export const translations = {
     description: "ViviFind es una plataforma que busca departamentos por ti, usando IA para encontrar las mejores casas según tus preferencias, sin que tengas que pasar horas mirando portales.",
     features: [
       {
-        title: "Búsqueda Automática",
+        title: "Búsqueda automática",
         desc: "Un asistente de IA que recorría los principales portales mientras dormías."
       },
       {
-        title: "Alertas Instantáneas",
+        title: "Alertas instantáneas",
         desc: "Entregaba listados estrictamente relevantes, ahorrando horas de navegación manual."
       },
       {
-        title: "Emparejamiento Inteligente",
+        title: "Emparejamiento inteligente",
         desc: "Entendía las preferencias más allá de los filtros, encontrando el hogar perfecto."
       }
     ],
-    codeRemains: "El Código Permanece.",
+    codeRemains: "El código permanece.",
     saleDesc: "Vivifind puede estar dormido, pero su motor está bien despierto. La base de código completa, incluyendo algoritmos de scraping, lógica de IA y frontend moderno, está disponible para adquisición.",
     contactInquiry: "Contacto para Información",
-    techStack: ["Núcleo Python", "TypeScript & Next.js", "Integración IA/ML", "Arquitectura Escalable"],
+    techStack: ["Núcleo Python", "TypeScript & Next.js", "Integración IA/ML", "Arquitectura escalable"],
     footer: "© Vivifind. Todos los derechos reservados en memoria.",
     attribution: "un proyecto de fcoterroba"
   },

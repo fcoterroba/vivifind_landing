@@ -32,7 +32,7 @@ export default function ForSale({ lang }) {
                         {t.saleDesc}
                     </p>
                     <div className="flex flex-col sm:flex-row gap-4">
-                        <a href="mailto:contact@vivifind.com" className="inline-flex items-center justify-center px-8 py-4 bg-primary hover:bg-blue-600 text-white rounded-full font-bold transition-all shadow-lg shadow-primary/20 hover:shadow-primary/40 hover:-translate-y-1">
+                        <a href="mailto:vivifind@fcoterroba.com" className="inline-flex items-center justify-center px-8 py-4 bg-primary hover:bg-blue-600 text-white rounded-full font-bold transition-all shadow-lg shadow-primary/20 hover:shadow-primary/40 hover:-translate-y-1">
                             {t.contactInquiry}
                         </a>
                     </div>
