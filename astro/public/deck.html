@@ -1,0 +1,252 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+<title>ViviFind Pitch</title>
+
+<!-- Inter REAL -->
+<link href="https://fonts.googleapis.com/css2?family=Inter:wght@300;400;600;700&display=swap" rel="stylesheet">
+
+<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/reveal.js/4.5.0/reveal.min.css">
+
+<style>
+:root {
+	--bg: #0a0f1c;
+	--bg-soft: #0f172a;
+	--text: #ffffff;
+	--muted: #94a3b8;
+	--accent: #3A86FF;
+}
+
+/* 🌌 Fondo limpio animado (no agresivo) */
+body {
+	margin: 0;
+	background: radial-gradient(circle at 20% 20%, #1e3a8a22, transparent),
+				radial-gradient(circle at 80% 80%, #3A86FF22, transparent),
+				var(--bg);
+	background-size: 200% 200%;
+	animation: bgMove 20s ease infinite;
+	font-family: 'Inter', sans-serif;
+	color: var(--text);
+}
+
+@keyframes bgMove {
+	0% { background-position: 0% 50%; }
+	50% { background-position: 100% 50%; }
+	100% { background-position: 0% 50%; }
+}
+
+.reveal {
+	font-family: 'Inter', sans-serif;
+}
+
+section {
+	display: flex;
+	flex-direction: column;
+	justify-content: center;
+	align-items: center;
+	text-align: center;
+	padding: 2rem;
+	height: 100vh;
+}
+
+/* Typography */
+h1 {
+	font-size: clamp(2.5rem, 6vw, 4rem);
+	font-weight: 700;
+	letter-spacing: -0.03em;
+}
+
+h2 {
+	font-size: clamp(1.8rem, 4vw, 2.5rem);
+	color: var(--accent);
+}
+
+p {
+	font-size: clamp(1.1rem, 2vw, 1.4rem);
+	color: var(--muted);
+	max-width: 800px;
+}
+
+.big {
+	font-size: clamp(1.5rem, 3vw, 2.2rem);
+	color: var(--text);
+}
+
+.accent {
+	color: var(--accent);
+}
+
+/* Glow sutil Apple */
+.glow {
+	text-shadow: 0 0 25px rgba(58,134,255,0.4);
+}
+
+/* Animaciones tipo Apple */
+.reveal section * {
+	opacity: 0;
+	transform: translateY(20px);
+	animation: fadeUp 0.8s ease forwards;
+}
+
+.reveal section *:nth-child(1) { animation-delay: 0.2s; }
+.reveal section *:nth-child(2) { animation-delay: 0.4s; }
+.reveal section *:nth-child(3) { animation-delay: 0.6s; }
+.reveal section *:nth-child(4) { animation-delay: 0.8s; }
+
+@keyframes fadeUp {
+	to {
+		opacity: 1;
+		transform: translateY(0);
+	}
+}
+
+/* Founder */
+.founder {
+	display: flex;
+	flex-direction: column;
+	align-items: center;
+	gap: 2rem;
+}
+
+@media (min-width: 768px) {
+	.founder {
+		flex-direction: row;
+		text-align: left;
+	}
+}
+
+.photo {
+	width: 180px;
+	height: 180px;
+	border-radius: 20px;
+	background: linear-gradient(135deg, #3A86FF, #60a5fa);
+	display: flex;
+	align-items: center;
+	justify-content: center;
+	color: white;
+	box-shadow: 0 0 30px rgba(58,134,255,0.4);
+}
+
+/* Reveal UI */
+.reveal .controls,
+.reveal .progress {
+	color: var(--accent);
+}
+</style>
+</head>
+
+<body>
+<div class="reveal">
+<div class="slides">
+
+<!-- PORTADA -->
+<section>
+	<h1 class="glow">ViviFind</h1>
+	<p class="big">Encuentra vivienda sin buscar</p>
+</section>
+
+<!-- PROBLEMA -->
+<section>
+	<h2>Buscar vivienda es perder tiempo</h2>
+	<p>Horas navegando entre portales</p>
+	<p>Opciones que no encajan contigo</p>
+	<p>Demasiado ruido, poca relevancia</p>
+</section>
+
+<!-- INSIGHT -->
+<section>
+	<p class="big">El problema no es encontrar pisos</p>
+	<p class="big">Es encontrar <span class="accent">el adecuado</span></p>
+</section>
+
+<!-- SOLUCIÓN -->
+<section>
+	<h2>ViviFind lo hace por ti</h2>
+	<p>Configuras lo que buscas una vez</p>
+	<p>Recibes solo lo que encaja contigo</p>
+</section>
+
+<!-- PARADIGMA -->
+<section>
+	<p class="big">De buscar → <span class="accent glow">recibir</span></p>
+</section>
+
+<!-- PRODUCTO -->
+<section>
+	<h2>Cómo funciona</h2>
+	<p>Defines tus preferencias: precio, zona, características</p>
+	<p>ViviFind analiza y filtra automáticamente</p>
+	<p>Recibes recomendaciones relevantes cada día</p>
+</section>
+
+<!-- TRACCIÓN -->
+<section>
+	<h2>Tracción</h2>
+	<p class="big">Premiado en Santander X Explorer</p>
+	<p>
+		<a href="https://parquecientificoumh.es/noticias/vivifind-mejor-propuesta-programa-santander-x-explorer" target="_blank" style="color:#3A86FF;">
+		Ver reconocimiento UMH
+		</a>
+	</p>
+	<p>Fase de validación</p>
+</section>
+
+<!-- MODELO -->
+<section>
+	<h2>Modelo</h2>
+	<p class="big">Gratis → valor básico</p>
+	<p class="big">Pago → recomendaciones premium</p>
+</section>
+
+<!-- DIFERENCIA -->
+<section>
+	<h2>La diferencia</h2>
+	<p class="big">Portales → tú buscas</p>
+	<p class="big">ViviFind → <span class="accent glow">te encuentra a ti</span></p>
+</section>
+
+<!-- FOUNDER -->
+<section>
+	<h2>Founder</h2>
+	<div class="founder">
+		<div class="photo"><img class="photo" src="https://fcoterroba.com/index_fcoterroba.png" alt="" srcset=""></div>
+		<div>
+			<p class="big">Francisco Terroba</p>
+			<p>Builder</p>
+			<p>Producto + tecnología</p>
+			<p>Construido desde cero</p>
+		</div>
+	</div>
+</section>
+
+<!-- VISIÓN -->
+<section>
+	<p class="big">La búsqueda será <span class="accent glow">automática</span></p>
+	<p class="big">ViviFind será la capa inteligente del mercado</p>
+</section>
+
+<!-- CIERRE -->
+<section>
+	<h1 class="accent glow">Gracias</h1>
+</section>
+
+</div>
+</div>
+
+<script src="https://cdnjs.cloudflare.com/ajax/libs/reveal.js/4.5.0/reveal.min.js"></script>
+
+<script>
+Reveal.initialize({
+	hash: true,
+	progress: true,
+	controls: true,
+	transition: 'fade',
+	backgroundTransition: 'fade'
+});
+</script>
+
+</body>
+</html>
