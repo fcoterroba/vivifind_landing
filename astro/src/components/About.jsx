@@ -1,4 +1,3 @@
-import React from 'react';
 import { motion, AnimatePresence } from 'framer-motion';
 import { Search, Bell, Home } from 'lucide-react';
 import { translations } from '../utils/translations';
@@ -21,7 +20,7 @@ export default function About({ lang }) {
                 transition={{ duration: 0.5 }}
                 className="text-center mb-16"
             >
-                <h2 className="text-3xl md:text-5xl font-bold mb-6 text-slate-900">{t.whatWasVivifind}</h2>
+                <h2 className="text-3xl md:text-5xl font-bold mb-6 text-slate-900">{t.whatIsVivifind}</h2>
                 <p className="text-slate-600 max-w-3xl mx-auto text-lg md:text-xl leading-relaxed font-medium">
                     {t.description}
                 </p>
