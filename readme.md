@@ -1,3 +1,3 @@
 # vivifind landing
 
-landing of vivifind, a dead fcoterroba's project
+landing of vivifind, a **not dead** fcoterroba's project
