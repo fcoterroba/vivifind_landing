@@ -1,4 +1,3 @@
-import React from 'react';
 import { motion, AnimatePresence } from 'framer-motion';
 import { translations } from '../utils/translations';
 
@@ -40,14 +39,9 @@ export default function Hero({ lang, setLang }) {
             <h1 className="text-5xl md:text-7xl lg:text-8xl font-black tracking-tight mb-6 text-slate-900 leading-[1.1]">
               {t.heroTitle}
             </h1>
-            <p className="text-xl md:text-2xl text-slate-600 font-normal max-w-2xl mx-auto leading-relaxed mb-8">
+            <p className="text-xl md:text-2xl text-slate-600 font-normal max-w-2xl mx-auto leading-relaxed mb-10">
               {t.heroSubtitle}
             </p>
-            <div className="flex justify-center">
-                <span className="text-sm md:text-base font-bold uppercase tracking-widest bg-blue-50 text-primary px-6 py-2 rounded-full border border-blue-100">
-                    {t.archived}
-                </span>
-            </div>
           </motion.div>
         </AnimatePresence>
       </div>
