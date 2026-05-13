@@ -1,8 +1,11 @@
-import React, { useState, useEffect } from 'react';
+import { useState, useEffect } from 'react';
 import { motion } from 'framer-motion';
 import Hero from './Hero';
+import Awards from './Awards';
 import About from './About';
-import ForSale from './ForSale';
+import News from './News';
+import FakeDemo from './FakeDemo';
+import Future from './Future';
 import { translations } from '../utils/translations';
 
 const Attribution = ({ lang }) => {
@@ -41,8 +44,11 @@ export default function LandingPage() {
   return (
     <div className="mouse-glow">
       <Hero lang={lang} setLang={setLang} />
+      <Awards lang={lang} />
       <About lang={lang} />
-      <ForSale lang={lang} />
+      <News lang={lang} />
+      <FakeDemo lang={lang} />
+      <Future lang={lang} />
       <Attribution lang={lang} />
     </div>
   );
