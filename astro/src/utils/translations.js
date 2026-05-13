@@ -1,83 +1,138 @@
 export const translations = {
   en: {
     heroTitle: "Your new flat, without the search.",
-    heroSubtitle: "Tell us what you need once and our AI will search the major portals for you. You'll receive only the best options every day, effortlessly.",
-    archived: "Project Archived • Code Available",
-    whatWasVivifind: "What was Vivifind?",
-    description: "ViviFind is a platform that searches for apartments for you, using AI to find the best homes according to your preferences, without you having to spend hours looking at portals.",
+    heroSubtitle: "Stop scrolling. Our AI analyzes thousands of listings to find your perfect home. Only relevant results, delivered daily.",
+    followUpdates: "Follow the journey",
+    watchDemo: "See it in action",
+    awardsTitle: "Recognized by industry leaders",
+    bestProposal: "Best Proposal - Santander X Explorer UMH 2026",
+    umhPrize: "300€ Award from PCUMH",
+    pressMention: "Press & Media Coverage",
+    newsTitle: "ViviFind in the news",
+    whatIsVivifind: "What is Vivifind?",
+    description: "ViviFind is an AI-powered real estate assistant that revolutionizes how you find your next home. We don't just filter; we understand your lifestyle and preferences.",
     features: [
       {
-        title: "Automated search",
-        desc: "An AI assistant that scoured major real estate portals while you slept."
+        title: "24/7 AI Scouting",
+        desc: "Our engine constantly scans all major portals and local agencies while you sleep."
       },
       {
-        title: "Instant alerts",
-        desc: "Delivered strictly relevant listings, saving hours of daily manual scrolling."
+        title: "Precision matching",
+        desc: "Advanced NLP understands your needs beyond simple price and location filters."
       },
       {
-        title: "Smart matching",
-        desc: "Understood preferences beyond filters, finding the perfect home match."
+        title: "Instant verification",
+        desc: "Automatic listing verification to ensure you never waste time on fake or outdated ads."
       }
     ],
-    codeRemains: "The code remains.",
-    saleDesc: "Vivifind may be asleep, but its engine is wide awake. The complete codebase, including the sophisticated scraping algorithms, AI matching logic, and modern frontend, is available for acquisition.",
-    contactInquiry: "Contact for Inquiry",
-    techStack: ["Python core", "TypeScript & Next.js", "AI/ML integration", "Scalable architecture"],
-    footer: "© Vivifind. All rights reserved in memory.",
+    demoTitle: "The ViviFind experience",
+    demoStepForm: "Tell us once",
+    demoStepChat: "AI Assistant Chat",
+    demoStepResults: "Your Top 5 Picks",
+    demoFormCity: "City",
+    demoFormBudget: "Max budget",
+    demoFormPets: "Pets allowed?",
+    demoChatHi: "Hi! I'm your AI scout. Any specific neighborhood in mind?",
+    demoChatUser: "Close to the city center and with a terrace if possible.",
+    demoChatAi: "Got it. I'll prioritize those and verify the listings for you.",
+    demoSearching: "AI is scanning portals...",
+    demoFound: "Daily top 5 matches",
+    demoStandard: "Standard match",
+    demoPremium: "Premium match",
+    demoMatchScore: "Match score",
+    futureTitle: "The future of housing",
+    futureDesc: "ViviFind is growing. We are building the ultimate tool to make housing search stress-free. Follow our progress on social media.",
+    followInstagram: "Follow me on Instagram",
+    followLinkedIn: "ViviFind on LinkedIn",
+    techStack: ["AI-Driven Analysis", "Real-time Scraping", "Smart Notifications", "Verified Listings"],
+    footer: "© Vivifind. Built for the future of housing.",
     attribution: "a fcoterroba project"
   },
   es: {
     heroTitle: "Tu nuevo piso, sin buscarlo.",
-    heroSubtitle: "Dinos qué necesitas una vez y nuestra IA buscará por ti en los principales portales. Recibirás solo las mejores opciones cada día, sin esfuerzo.",
-    archived: "Proyecto Archivado • Código Disponible",
-    whatWasVivifind: "¿Qué era Vivifind?",
-    description: "ViviFind es una plataforma que busca departamentos por ti, usando IA para encontrar las mejores casas según tus preferencias, sin que tengas que pasar horas mirando portales.",
+    heroSubtitle: "Deja de hacer scroll. Nuestra IA analiza miles de anuncios para encontrar tu hogar ideal. Solo resultados relevantes, cada día.",
+    followUpdates: "Sigue el camino",
+    watchDemo: "Ver demo en acción",
+    awardsTitle: "Reconocido por líderes del sector",
+    bestProposal: "Mejor Propuesta - Santander X Explorer UMH 2026",
+    umhPrize: "Premio de 300€ del PCUMH",
+    pressMention: "Cobertura en prensa y medios",
+    newsTitle: "ViviFind en los medios",
+    whatIsVivifind: "¿Qué es Vivifind?",
+    description: "ViviFind es un asistente inmobiliario impulsado por IA que revoluciona cómo encuentras tu próximo hogar. No solo filtramos; entendemos tu estilo de vida y preferencias.",
     features: [
       {
-        title: "Búsqueda automática",
-        desc: "Un asistente de IA que recorría los principales portales mientras dormías."
+        title: "Búsqueda 24/7",
+        desc: "Nuestro motor escanea constantemente los principales portales e inmobiliarias locales mientras duermes."
       },
       {
-        title: "Alertas instantáneas",
-        desc: "Entregaba listados estrictamente relevantes, ahorrando horas de navegación manual."
+        title: "Emparejamiento de precisión",
+        desc: "IA avanzada que entiende tus necesidades más allá de los filtros básicos de precio y zona."
       },
       {
-        title: "Emparejamiento inteligente",
-        desc: "Entendía las preferencias más allá de los filtros, encontrando el hogar perfecto."
+        title: "Verificación instantánea",
+        desc: "Verificación automática de anuncios para que no pierdas tiempo con ofertas falsas o caducadas."
       }
     ],
-    codeRemains: "El código permanece.",
-    saleDesc: "Vivifind puede estar dormido, pero su motor está bien despierto. La base de código completa, incluyendo algoritmos de scraping, lógica de IA y frontend moderno, está disponible para adquisición.",
-    contactInquiry: "Contacto para Información",
-    techStack: ["Núcleo Python", "TypeScript & Next.js", "Integración IA/ML", "Arquitectura escalable"],
-    footer: "© Vivifind. Todos los derechos reservados en memoria.",
+    demoTitle: "La Experiencia ViviFind",
+    demoStepForm: "Cuéntanos una vez",
+    demoStepChat: "Chat con el Asistente IA",
+    demoStepResults: "Tus 5 mejores opciones",
+    demoFormCity: "Ciudad",
+    demoFormBudget: "Presupuesto max",
+    demoFormPets: "¿Mascotas?",
+    demoChatHi: "¡Hola! Soy tu scout IA. ¿Algún barrio específico en mente?",
+    demoChatUser: "Cerca del centro y con terraza si es posible.",
+    demoChatAi: "Entendido. Priorizaré esos y verificaré los anuncios por ti.",
+    demoSearching: "La IA está escaneando portales...",
+    demoFound: "Tus 5 recomendaciones diarias",
+    demoStandard: "Opción estándar",
+    demoPremium: "Opción premium",
+    demoMatchScore: "Nivel de afinidad",
+    futureTitle: "El futuro de la vivienda",
+    futureDesc: "ViviFind está creciendo. Estamos construyendo la herramienta definitiva para que buscar casa no sea un estrés. Sigue nuestros avances.",
+    followInstagram: "Sígueme en Instagram",
+    followLinkedIn: "ViviFind en LinkedIn",
+    techStack: ["Análisis por IA", "Scraping en tiempo real", "Notificaciones inteligentes", "Anuncios verificados"],
+    footer: "© Vivifind. Construyendo el futuro de la vivienda.",
     attribution: "un proyecto de fcoterroba"
   },
   zh: {
     heroTitle: "无需搜索，即可找到您的新住所",
-    heroSubtitle: "只需告诉我们一次您的需求，我们的AI就会为您在主要门户网站上进行搜索。每天都能轻松获得最佳选择。",
-    archived: "项目已存档 • 代码可用",
-    whatWasVivifind: "什么是 Vivifind？",
-    description: "ViviFind 是一个为您寻找公寓的平台，利用 AI 根据您的喜好找到最好的房屋，而无需您花几个小时查看门户网站。",
+    heroSubtitle: "停止滚动。我们的AI分析数千个房源，为您找到完美的家。每天只提供相关的结果。",
+    followUpdates: "关注我们的旅程",
+    watchDemo: "查看演示",
+    awardsTitle: "获得行业领导者的认可",
+    bestProposal: "最佳提案 - Santander X Explorer UMH 2026",
+    umhPrize: "PCUMH 300欧元奖金",
+    asSeenOn: "媒体报道",
+    newsTitle: "媒体报道 ViviFind",
+    whatIsVivifind: "什么是 Vivifind？",
+    description: "ViviFind 是一款由 AI 驱动的房地产助手，它彻底改变了您寻找下一个家的方式。我们不仅仅是过滤；我们了解您的生活方式和偏好。",
     features: [
       {
-        title: "自动搜索",
-        desc: "当您入睡时，AI 助手会搜寻各大房地产门户网站。"
+        title: "24/7 AI 侦查",
+        desc: "当您入睡时，我们的引擎会不断扫描所有主要门户网站和当地机构。"
       },
       {
-        title: "即时警报",
-        desc: "提供严格相关的房源，节省每天手动滚动的时间。"
+        title: "精准匹配",
+        desc: "先进的自然语言处理技术可以理解您在简单价格和位置过滤器之外的需求。"
       },
       {
-        title: "智能匹配",
-        desc: "超越过滤器的偏好理解，找到完美的家。"
+        title: "即时验证",
+        desc: "自动验证房源，确保您永远不会在虚假或过时的广告上浪费时间。"
       }
     ],
-    codeRemains: "代码依然存在。",
-    saleDesc: "Vivifind 虽然已经休眠，但它的引擎依然保持清醒。完整的代码库，包括复杂的抓取算法、AI 匹配逻辑和现代前端，均可供收购。",
-    contactInquiry: "联系咨询",
-    techStack: ["Python 核心", "TypeScript & Next.js", "AI/ML 集成", "可扩展架构"],
-    footer: "© Vivifind。记忆中保留所有权利。",
+    demoTitle: "观看 AI 工作",
+    demoSearching: "正在扫描门户...",
+    demoFound: "找到匹配！",
+    demoMatchScore: "匹配得分",
+    futureTitle: "住房的未来",
+    futureDesc: "ViviFind 正在成长。我们正在构建最终工具，让住房搜索变得无压力。在社交媒体上关注我们。",
+    followInstagram: "在 Instagram 上关注我",
+    followLinkedIn: "ViviFind 的 LinkedIn",
+    techStack: ["AI 驱动分析", "实时抓取", "智能通知", "经过验证的房源"],
+    footer: "© Vivifind。为住房的未来而建。",
     attribution: "fcoterroba 项目"
   }
 };
